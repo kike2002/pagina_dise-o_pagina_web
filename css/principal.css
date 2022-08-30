@@ -1,0 +1,111 @@
+*
+{
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+/*Fuentea*/
+
+@font-face
+{
+	font-family: "fuente1";
+	src: url("../font/Louis-George-Cafe.woff");
+}
+@font-face
+{
+	font-family: "fuente2";
+	src: url("../font/Evogria.woff");
+}
+@font-face
+{
+	font-family: "fuente3";
+	src: url("../font/Gishella Morely Italic.woff");
+}
+/*Contenedor*/
+.contenedor
+{
+	height: 100%;
+	width: 100%;
+	border: 0px solid black;
+	margin: 10px auto;
+	box-sizing: border-box;
+}
+/*estilo de cabecera*/
+.cabecera
+{
+	height: 90px;
+	width: 100%;
+}
+.logo
+{
+	width: 349px;
+	height: 90px;
+	background: brown;
+	float: left;
+	overflow: hidden;
+}
+.logo img
+{
+	height: 90px;
+	width: 120px;
+	margin: 2px;
+}
+.menu
+{
+	width: 1000px;
+	height: 90px;
+	float: right;
+}
+.menu li 
+{
+	width: 250px;
+	height: 90px;
+	background: brown;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	list-style: none;
+	float: right;
+}
+.menu li a
+{
+	line-height: 80px;
+	color: rgb(153, 163, 164);
+	text-decoration: none;
+	position: relative;
+	font-family: fuente2;
+	text-shadow: 2px 2px 6px black;
+}
+.menu li a div
+{
+	width: 241.5px;
+	height: 10px;
+	background: white;
+	position: relative;
+	top: -55px;
+	right: 0px;
+}
+.menu li:hover a div
+{
+	top: 0px;
+}
+/*estilo de cuerpo*/
+.cuerpo
+{
+	width: 100%;
+}
+.fondo_1
+{
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 800px;
+	font-size: 30px;
+	font-family: fuente3;
+	color: brown;
+}
+

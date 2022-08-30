@@ -1,0 +1,486 @@
+*
+{
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+/*Fuentea*/
+
+@font-face
+{
+	font-family: "fuente1";
+	src: url("../font/Louis-George-Cafe.woff");
+}
+@font-face
+{
+	font-family: "fuente2";
+	src: url("../font/Evogria.woff");
+}
+@font-face
+{
+	font-family: "fuente3";
+	src: url("../font/Gishella Morely Italic.woff");
+}
+/*Contenedor*/
+.contenedor
+{
+	width: 100%;
+	height: 100%;
+	border: 0px solid black;
+	margin: 10px auto;
+	box-sizing: border-box;
+}
+/*estilo de cabecera*/
+.cabecera
+{
+	height: 90px;
+	width: 100%;
+}
+.logo
+{
+	width: 349px;
+	height: 90px;
+	background: brown;
+	float: left;
+	overflow: hidden;
+}
+.logo img
+{
+	height: 90px;
+	width: 120px;
+	margin: 2px;
+}
+.menu
+{
+	width: 1000px;
+	height: 90px;
+	float: right;
+}
+.menu li 
+{
+width: 250px;
+	height: 90px;
+	background: brown;
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	list-style: none;
+	float: right;
+}
+.menu li a
+{
+	line-height: 80px;
+	color: rgb(153, 163, 164);
+	text-decoration: none;
+	position: relative;
+	font-family: fuente2;
+	text-shadow: 2px 2px 6px black;
+}
+.menu li a div
+{
+	width: 241.5px;
+	height: 10px;
+	background: white;
+	position: relative;
+	top: -55px;
+	right: 0px;
+}
+.menu li:hover a div
+{
+	top: 0px;
+}
+/*estilo de cuerpo*/
+.cuerpo
+{
+	height: 1200px;
+	width: 100%;
+	padding: 50px;
+	box-sizing: border-box;
+	background-image: url(../img/6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*contenedor 1*/
+.contenedor .c1
+{
+	margin: 50px 100px;
+	float: left;
+	position: relative;
+	height: 270px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px rgba(22, 22, 22, 0.3);
+	cursor: pointer;
+}
+.contenedor .c1 img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor .c1 .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgb(255, 33, 0, 0.5);
+	transition: all 500ms ease-out;
+	text-align: center;
+	font-family: fuente1;
+} 
+.contenedor .c1:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor .c1:hover > .capa h3
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.contenedor .c1:hover > img
+{
+	transform: scale(1.3);
+}
+.contenedor .c1 .capa h3
+{
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor .c1 .capa p
+{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+	font-weight: bold;
+}
+/*contenedor 2*/
+.contenedor .c2
+{
+	margin: 50px 100px;
+	float: right;
+	position: relative;
+	height: 270px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px rgba(22, 22, 22, 0.2);
+	cursor: pointer;
+}
+.contenedor .c2 img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor .c2 .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(255, 33, 0, 0.5);
+	transition: all 500ms ease-out;
+	text-align: center;
+	font-family: fuente1;
+} 
+.contenedor .c2:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor .c2:hover > .capa h3
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.contenedor .c2:hover > img
+{
+	transform: scale(1.3);
+}
+.contenedor .c2 .capa h3
+{
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor .c2 .capa p
+{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+	font-weight: bold;
+}
+/*contenedor3*/
+.contenedor .c3
+{
+	margin: 50px 100px;
+	float: left;
+	position: relative;
+	height: 270px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px rgba(22, 22, 22, 0.2);
+	cursor: pointer;
+}
+.contenedor .c3 img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor .c3 .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(255, 33, 0, 0.5);
+	transition: all 500ms ease-out;
+	text-align: center;
+	font-family: fuente1;
+} 
+.contenedor .c3:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor .c3:hover > .capa h3
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.contenedor .c3:hover > img
+{
+	transform: scale(1.3);
+}
+.contenedor .c3 .capa h3
+{
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor .c3 .capa p
+{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+	font-weight: bold;
+}
+/*contenedor4*/
+.contenedor .c4
+{
+	margin: 50px 100px;
+	float: right;
+	position: relative;
+	height: 270px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px rgba(22, 22, 22, 0.2);
+	cursor: pointer;
+}
+.contenedor .c4 img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor .c4 .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(255, 33, 0, 0.5);
+	transition: all 500ms ease-out;
+	text-align: center;
+	font-family: fuente1;
+} 
+.contenedor .c4:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor .c4:hover > .capa h3
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.contenedor .c4:hover > img
+{
+	transform: scale(1.3);
+}
+.contenedor .c4 .capa h3
+{
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor .c4 .capa p
+{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+	font-weight: bold;
+}
+/*contenedor5*/
+.contenedor .c5
+{
+	margin:50px 100px;
+	float: left;
+	position: relative;
+	height: 270px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px rgba(22, 22, 22, 0.2);
+	cursor: pointer;
+}
+.contenedor .c5 img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor .c5 .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(255, 33, 0, 0.5);
+	transition: all 500ms ease-out;
+	text-align: center;
+	font-family: fuente1;
+} 
+.contenedor .c5:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor .c5:hover > .capa h3
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.contenedor .c5:hover > img
+{
+	transform: scale(1.3);
+}
+.contenedor .c5 .capa h3
+{
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor .c5 .capa p
+{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+	font-weight: bold;
+}
+/*contenedor6*/
+.contenedor .c6
+{
+	margin:50px 100px;
+	float: right;
+	position: relative;
+	height: 270px;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 25px rgba(22, 22, 22, 0.2);
+	cursor: pointer;
+}
+.contenedor .c6 img
+{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+}
+.contenedor .c6 .capa
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(255, 33, 0, 0.5);
+	transition: all 500ms ease-out;
+	text-align: center;
+	font-family: fuente1;
+} 
+.contenedor .c6:hover > .capa
+{
+	opacity: 1;
+	visibility: visible;
+} 
+.contenedor .c6:hover > .capa h3
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.contenedor .c2:hover > img
+{
+	transform: scale(1.3);
+}
+.contenedor .c6 .capa h3
+{
+	color: white;
+	font-weight: 400px;
+	margin-bottom: 120px;
+	transition: all 500ms ease-out;
+	margin-top: 30px;
+}
+.contenedor .c6 .capa p
+{
+	color: white;
+	font-size: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+	font-weight: bold;
+}
